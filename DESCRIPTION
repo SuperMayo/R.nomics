@@ -1,0 +1,12 @@
+Package: R.nomics
+Title: A package that talks to DBnomics
+Version: 0.0.0.9000
+Authors@R: person("Antoine", "Mayerowitz", email = "a.mayerowitz@gmail.com", role = c("aut", "cre"))
+Description: An R package that talks to DBnomics through its Json API.
+    DBnomics is a website aggregating global data from various institutions.
+    DBnomics is currently hosted at db.nomics.world
+Depends: R (>= 3.4.2)
+License: WTFPL 2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
