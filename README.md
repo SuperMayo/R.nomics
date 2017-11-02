@@ -1,5 +1,5 @@
 # R.nomics
-An R package that talks to [DBnomics](db.nomics.world)
+An R package that talks to [DBnomics](https://db.nomics.world/)
 
 ## How to install
 In R console:
