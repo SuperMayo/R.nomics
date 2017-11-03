@@ -3,7 +3,9 @@ An R package that talks to [DBnomics](https://db.nomics.world/)
 
 ## How to install
 In R console:
+
 `install.packages("devtools")`
+
 `github_install("SuperMayo/R.nomics")`
 
 ## Basic use
