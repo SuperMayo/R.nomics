@@ -4,20 +4,22 @@
 \alias{DBson}
 \title{DBson}
 \usage{
-DBson(slug, frequency = TRUE, source = FALSE)
+DBson(slug, frequency = TRUE, source = FALSE, longtitle = FALSE)
 }
 \arguments{
 \item{frequency}{A \emph{boolean}. If you want a frequency column in your data frame.}
 
 \item{source}{A \emph{boolean}. If you want a data provider column in your data frame.}
 
-\item{"slug"}{A \emph{string}. The slug provided on dbnomics.}
+\item{longtitle}{Exhaustive description of your data}
+
+\item{"slug"}{A \emph{string}. The slug provided on dbnomics. You can provide multiple slugs in \emph{list} format.}
 }
 \value{
 A \emph{long} data frame with at least 3 columns: \code{time values var}
 }
 \description{
-This function allows you to easily download data formated in json from DBnomics and translate it to data frame
+This function allows you to easily download data formated in json from DBnomics and converts it to data frame
 }
 \examples{
 # Download USA GDP from OECD's Economic Outlook

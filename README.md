@@ -4,7 +4,9 @@ An R package that talks to [DBnomics](https://db.nomics.world/)
 ## How to install
 In R console:
 
-`github_install("SuperMayo/R.nomics")`
+`install.packages("devtools")`
+
+`install_github("SuperMayo/R.nomics")`
 
 ## Basic use
 To download a given series, copy the __slug__ of the data, then
