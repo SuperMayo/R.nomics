@@ -6,7 +6,7 @@ In R console:
 
 `install.packages("devtools")`
 
-`github_install("SuperMayo/R.nomics")`
+`install_github("SuperMayo/R.nomics")`
 
 ## Basic use
 To download a given series, copy the __slug__ of the data, then
